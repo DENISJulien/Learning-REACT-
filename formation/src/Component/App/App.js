@@ -9,6 +9,8 @@ import StandardImageList from '../Image/Image';
 import BasicModal from '../ModalTest/ModalTest';
 import ModalAxios from '../ModalAxios/ModalAxios';
 import UserById from '../UserById/UserById';
+import FunctionUserById from '../Functions/FunctionUser/FunctionUserById';
+
 // import { useEffect, useState } from 'react';
 // import axios from 'axios';
 
@@ -28,7 +30,7 @@ function App() {
 
   return (
     <div className="app">
-      <Header/>
+      {/* <Header/>
       <Skeleton/>
       <Footer/>
       <Select/>
@@ -37,7 +39,8 @@ function App() {
       <StandardImageList/>
       <BasicModal/>
       <ModalAxios/>
-      <UserById/>
+      <UserById/> */}
+      <FunctionUserById/>
     </div>
   );
 }
