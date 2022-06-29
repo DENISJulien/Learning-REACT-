@@ -55,7 +55,7 @@ const itemData = [
   
 const StandardImageList = () => {
     return (
-        <ImageList sx={{ width: 900 }} cols={3} rowHeight={300}>
+        <ImageList sx={{ width: 900, height:450 }} cols={3} rowHeight={300}>
           {itemData.map((item) => (
             <ImageListItem key={item.img}>
               <img

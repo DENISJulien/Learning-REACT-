@@ -7,9 +7,25 @@ import ColorSwitches from '../ColorSwitch/ColorSwitch';
 import CustomizedTooltips from '../Tooltips/Tooltips';
 import StandardImageList from '../Image/Image';
 import BasicModal from '../ModalTest/ModalTest';
+import ModalAxios from '../ModalAxios/ModalAxios';
+import UserById from '../UserById/UserById';
+// import { useEffect, useState } from 'react';
+// import axios from 'axios';
 
 
 function App() {
+
+  // const [user, setUser] = useState([])
+
+  // useEffect (() => {
+  //   function getData(){
+  //     axios.get('http://localhost:8080/api/user')
+  //     .then(response => setUser(response.data))
+  //     .catch(error => console.log(error, "t'es une grosse merde"))
+  //   }
+  //   getData()
+  // },[])
+
   return (
     <div className="app">
       <Header/>
@@ -20,6 +36,8 @@ function App() {
       <CustomizedTooltips/>
       <StandardImageList/>
       <BasicModal/>
+      <ModalAxios/>
+      <UserById/>
     </div>
   );
 }
