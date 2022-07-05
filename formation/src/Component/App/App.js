@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="app">
-      {/* <Header/>
+      <Header/>
       <Skeleton/>
       <Footer/>
       <Select/>
@@ -39,7 +39,7 @@ function App() {
       <StandardImageList/>
       <BasicModal/>
       <ModalAxios/>
-      <UserById/> */}
+      <UserById/>
       <FunctionUserById/>
     </div>
   );
